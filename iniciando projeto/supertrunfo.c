@@ -52,6 +52,7 @@ int main() {
     
     default:
     printf("Código Inexistente!");
+        return 0;
         break;
     }
     
@@ -184,7 +185,7 @@ int main() {
 
     //Aqui o programa ira executar os calculos para entregar o resultado de comparação das cartas.
     printf("\n");
-    
+
     if (player1 == player2)
     {
         printf(" ### DROWNGAMER ###\n");
